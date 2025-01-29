@@ -3,6 +3,8 @@ import Image from 'next/image'
 import React from 'react'
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from './ui/accordion'
 import { Plus } from 'lucide-react'
+import '../styles/global.scss'
+
 
 const Faq = () => {
   return (
@@ -15,7 +17,7 @@ const Faq = () => {
                 alt="faq splat image"
             />
             <div className="w-full lg:w-[400px] lg:h-[240px] p-4 flex justify-center items-center border-[1px] border-black -mt-12 bg-slate-50 rounded-xl">
-                <p className="text-4xl lg:text-6xl">FREQUENTLY ASKED QUESTIONS</p>
+                <p className="text-4xl lg:text-6xl secondary">FREQUENTLY ASKED QUESTIONS</p>
             </div>
             <p className="text-lg lg:text-xl font-light mt-4">Got some questions about $splat coin?</p>
         </section>
