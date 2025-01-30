@@ -31,9 +31,9 @@ const About = () => {
 <Image
   width={400}
   height={400}
-  src='/assets/images/logo4.png' 
+  src='/assets/images/logo8.png' 
   alt="splat playing with friends"
-  className="scale-x-[-1]"
+  className="max-w-[280px] lg:max-w-[600px]"
 />
 
 <section className="flex flex-col gap-8 lg:w-1/2">
@@ -41,7 +41,7 @@ const About = () => {
   <p className="text-lg lg:w-[80%]">Say hello to Crypto Bernie $SPLAT—the tail-wagging, blockchain-loving Bernese Mountain Dog who’s here to fetch your attention! $SPLAT isn’t just barking up the blockchain tree; he’s digging up treasures of crypto knowledge for everyone! With loyalty as big as his fluffy paws and style that’s off the leash, Bernie’s mission is simple: make crypto fun, friendly, and for everyone. Whether you’re a seasoned hodler or just sniffing around for your first token, Bernie’s got your back (and maybe a slobbery high-five too)!</p>
   
             <div className="relative w-[260px] h-[65px] rounded-lg border-[1px] border-gray-200 overflow-hidden group z-10 ">
-                <div className="absolute top-0 h-full w-full group-hover:ml-52 duration-700 transition-all ease-in-out bg-slate-950 rounded-lg text-slate-50  border-[1px] border-gray-200 z-20 flex justify-center items-center text-lg">Buy On Jupiter <ArrowRight size={20} className="ml-2"/></div>
+                <div className="absolute top-0 h-full w-full group-hover:ml-52 duration-700 transition-all ease-in-out bg-blue-600 rounded-lg text-slate-50  border-[1px] border-gray-200 z-20 flex justify-center items-center text-lg">Buy On Jupiter <ArrowRight size={20} className="ml-2"/></div>
                 <Link href="/" className="absolute top-0 h-full w-full bg-white border-[1px] border-gray-200 rounded-lg flex justify-start items-center pl-12 font-semibold text-lg">Buy $SPLAT Today</Link>
             </div>
 

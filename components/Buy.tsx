@@ -10,7 +10,7 @@ const Buy = () => {
             <div className="flex flex-col items-center justify-start text-left text-lg gap-6 bg-white border-[1px] border-gray-200 rounded-lg w-full py-8 px-6">
                 <p className="text-5xl w-full font-extrabold">01</p>
                 <p className="text-2xl lg:text-2xl w-full h-[30px]">Create a Phantom Wallet</p>
-                <p>Set up your Phantom wallet, the ultimate Solana wallet for managing your crypto. It is quick, secure, and easy to use. Head to <Link href="/https://phantom.com/" className="text-blue-600">Phantom's website</Link> to get started!</p>
+                <p>Set up your Phantom wallet, the ultimate Solana wallet for managing your crypto. It is quick, secure, and easy to use. Head to <Link href="https://phantom.com/" target="_blank" className="text-blue-600">Phantom's website</Link> to get started!</p>
             </div>
 
             <div className="flex flex-col items-center justify-start text-left text-lg gap-6 bg-white border-[1px] border-gray-200 rounded-lg w-full py-8 px-6">
