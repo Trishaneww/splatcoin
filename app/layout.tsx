@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Bree_Serif } from "next/font/google";
+import { Coda } from "next/font/google";
 import { ThemeProvider } from "next-themes";
 import { cn } from "@/lib/utils";
 
-const inter = Bree_Serif({ weight: ["400"], subsets: ["latin"] });
+const inter = Coda({ weight: ["400"], subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Splat Coin",

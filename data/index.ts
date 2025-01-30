@@ -14,16 +14,6 @@ export const navItems = [
         name: 'TOKENOMICS',
         link: '/#tokenomics'
     },
-    {
-        id:1,
-        name: 'EXCHANGES',
-        link: '/#exchanges'
-    },
-    {
-      id:1,
-      name: 'FAQ',
-      link: '/#faq'
-  }
 ]
 
 export const faqData = [
@@ -44,16 +34,6 @@ export const faqData = [
     },
     {
       id: 4,
-      item: 'Can you help with scriptwriting or storyboarding?',
-      content: "Absolutely! We offer pre-production services, including scriptwriting, storyboarding, and creative planning, to ensure your vision is fully realized."
-    },
-    {
-      id: 5,
-      item: 'Can you help with scriptwriting or storyboarding?',
-      content: "Absolutely! We offer pre-production services, including scriptwriting, storyboarding, and creative planning, to ensure your vision is fully realized."
-    },
-    {
-      id: 6,
       item: 'Can you help with scriptwriting or storyboarding?',
       content: "Absolutely! We offer pre-production services, including scriptwriting, storyboarding, and creative planning, to ensure your vision is fully realized."
     }
