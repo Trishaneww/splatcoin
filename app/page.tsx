@@ -17,7 +17,7 @@ import Tokenomics from "@/components/Tokenomics";
 
 const Website = () => {
   return (
-    <div className="flex flex-col scroll-smooth bg-[#FAFAFA]">
+    <div className="flex flex-col scroll-smooth bg-sky-50">
       <Navbar />
       <Hero />
       {/* <div id="exchanges">
