@@ -4,8 +4,102 @@ import '../styles/global.scss'
 
 const Gallery = () => {
   return (
+    // <div className="flex flex-col items-center gap-2 mt-32">
+    //     <p className="text-3xl md:text-5xl lg:text-7xl font-bold secondary">MEME ART GALLERY</p>
+
+    //     <div className="flex flex-col gap-4 overflow-hidden mt-6">
+    //         <section className="w-full flex gap-4 relative right-20">
+    //             <Image 
+    //                 width={600}
+    //                 height={600}
+    //                 src="/assets/images/art1.png"
+    //                 alt="splat coin logo"
+    //                 className="rounded-lg border-[1.5px] border-gray-800"
+    //             />
+
+    //             <Image 
+    //                 width={600}
+    //                 height={600}
+    //                 src="/assets/images/art2.png"
+    //                 alt="splat coin logo"
+    //                 className="rounded-lg border-[1.5px] border-gray-800"
+    //             />
+
+    //             <Image 
+    //                 width={600}
+    //                 height={600}
+    //                 src="/assets/images/art1.png"
+    //                 alt="splat coin logo"
+    //                 className="rounded-lg border-[1.5px] border-gray-800"
+    //             />
+
+    //             <Image 
+    //                 width={600}
+    //                 height={600}
+    //                 src="/assets/images/art2.png"
+    //                 alt="splat coin logo"
+    //                 className="rounded-lg border-[1.5px] border-gray-800"
+    //             />
+
+
+    //             <Image 
+    //                 width={600}
+    //                 height={600}
+    //                 src="/assets/images/art1.png"
+    //                 alt="splat coin logo"
+    //                 className="rounded-lg border-[1.5px] border-gray-800"
+    //             />
+    //         </section>
+
+    //         <section className="w-full flex gap-4 relative right-2">
+    //             <Image 
+    //                 width={600}
+    //                 height={600}
+    //                 src="/assets/images/art2.png"
+    //                 alt="splat coin logo"
+    //                 className="rounded-lg border-[1.5px] border-gray-800"
+    //             />
+
+    //             <Image 
+    //                 width={600}
+    //                 height={600}
+    //                 src="/assets/images/art1.png"
+    //                 alt="splat coin logo"
+    //                 className="rounded-lg border-[1.5px] border-gray-800"
+    //             />
+
+    //             <Image 
+    //                 width={600}
+    //                 height={600}
+    //                 src="/assets/images/art2.png"
+    //                 alt="splat coin logo"
+    //                 className="rounded-lg border-[1.5px] border-gray-800"
+    //             />
+
+    //             <Image 
+    //                 width={600}
+    //                 height={600}
+    //                 src="/assets/images/art1.png"
+    //                 alt="splat coin logo"
+    //                 className="rounded-lg border-[1.5px] border-gray-800"
+    //             />
+
+
+    //             <Image 
+    //                 width={600}
+    //                 height={600}
+    //                 src="/assets/images/art2.png"
+    //                 alt="splat coin logo"
+    //                 className="rounded-lg border-[1.5px] border-gray-800"
+    //             />
+    //         </section>
+
+    //     </div>
+       
+    // </div>
+
     <div className="flex flex-col items-center gap-2 mt-32">
-        <p className="text-3xl md:text-5xl lg:text-7xl font-bold secondary">MEME ART GALLERY</p>
+        <p className="text-3xl md:text-5xl lg:text-7xl font-bold secondary text-slate-50">MEME ART GALLERY</p>
 
         <div className="flex flex-col gap-4 overflow-hidden mt-6">
             <section className="w-full flex gap-4 relative right-20">
@@ -14,7 +108,7 @@ const Gallery = () => {
                     height={600}
                     src="/assets/images/art1.png"
                     alt="splat coin logo"
-                    className="rounded-lg border-[1.5px] border-black"
+                    className="rounded-lg border-[1.5px] border-gray-800"
                 />
 
                 <Image 
@@ -22,7 +116,7 @@ const Gallery = () => {
                     height={600}
                     src="/assets/images/art2.png"
                     alt="splat coin logo"
-                    className="rounded-lg border-[1.5px] border-black"
+                    className="rounded-lg border-[1.5px] border-gray-800"
                 />
 
                 <Image 
@@ -30,7 +124,7 @@ const Gallery = () => {
                     height={600}
                     src="/assets/images/art1.png"
                     alt="splat coin logo"
-                    className="rounded-lg border-[1.5px] border-black"
+                    className="rounded-lg border-[1.5px] border-gray-800"
                 />
 
                 <Image 
@@ -38,7 +132,7 @@ const Gallery = () => {
                     height={600}
                     src="/assets/images/art2.png"
                     alt="splat coin logo"
-                    className="rounded-lg border-[1.5px] border-black"
+                    className="rounded-lg border-[1.5px] border-gray-800"
                 />
 
 
@@ -47,7 +141,7 @@ const Gallery = () => {
                     height={600}
                     src="/assets/images/art1.png"
                     alt="splat coin logo"
-                    className="rounded-lg border-[1.5px] border-black"
+                    className="rounded-lg border-[1.5px] border-gray-800"
                 />
             </section>
 
@@ -57,7 +151,7 @@ const Gallery = () => {
                     height={600}
                     src="/assets/images/art2.png"
                     alt="splat coin logo"
-                    className="rounded-lg border-[1.5px] border-black"
+                    className="rounded-lg border-[1.5px] border-gray-800"
                 />
 
                 <Image 
@@ -65,7 +159,7 @@ const Gallery = () => {
                     height={600}
                     src="/assets/images/art1.png"
                     alt="splat coin logo"
-                    className="rounded-lg border-[1.5px] border-black"
+                    className="rounded-lg border-[1.5px] border-gray-800"
                 />
 
                 <Image 
@@ -73,7 +167,7 @@ const Gallery = () => {
                     height={600}
                     src="/assets/images/art2.png"
                     alt="splat coin logo"
-                    className="rounded-lg border-[1.5px] border-black"
+                    className="rounded-lg border-[1.5px] border-gray-800"
                 />
 
                 <Image 
@@ -81,7 +175,7 @@ const Gallery = () => {
                     height={600}
                     src="/assets/images/art1.png"
                     alt="splat coin logo"
-                    className="rounded-lg border-[1.5px] border-black"
+                    className="rounded-lg border-[1.5px] border-gray-800"
                 />
 
 
@@ -90,7 +184,7 @@ const Gallery = () => {
                     height={600}
                     src="/assets/images/art2.png"
                     alt="splat coin logo"
-                    className="rounded-lg border-[1.5px] border-black"
+                    className="rounded-lg border-[1.5px] border-gray-800"
                 />
             </section>
 

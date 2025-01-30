@@ -1,24 +1,55 @@
 import React from 'react'
 import '../styles/global.scss'
+import Link from 'next/link'
 
 const Buy = () => {
   return (
     <div className="flex flex-col items-center gap-12 mt-32">
-        <p className="text-3xl md:text-5xl lg:text-7xl font-bold secondary">HOW TO BUY</p>
-        <section className="grid grid-cols-1 md:grid-cols-3 gap-6 px-6 md:w-[80%]">
-            <div className="flex flex-col items-center justify-start text-left text-lg gap-6 bg-slate-50 border-[1.5px] border-black rounded-lg w-full max-w-[450px] py-8 px-6">
-                <p className="text-2xl lg:text-4xl w-full">CREATE A WALLET</p>
-                <p>Similar to the charm of Shiba Inu on Ethereum, $HAMI brings a delightful twist with its adorable hamster-themed allure. Dive into the whimsical universe of $HAMI, where crypto merges with humor, and embark on an exciting journey toward the next big meme coin sensation on SOLANA</p>
+        <p className="text-3xl md:text-5xl lg:text-7xl font-bold secondary">HOW TO BUY $SPLAT</p>
+        <section className="grid grid-cols-1 md:grid-cols-2 gap-6 px-6 md:w-[80%] lg:w-[70%]">
+            <div className="flex flex-col items-center justify-start text-left text-lg gap-6 bg-white border-[1px] border-gray-200 rounded-lg w-full py-8 px-6">
+                <p className="text-5xl w-full font-extrabold">01</p>
+                <p className="text-2xl lg:text-2xl w-full h-[30px]">Create a Phantom Wallet</p>
+                <p>Set up your Phantom wallet, the ultimate Solana wallet for managing your crypto. It is quick, secure, and easy to use. Head to <Link href="/https://phantom.com/" className="text-blue-600">Phantom's website</Link> to get started!</p>
             </div>
-            <div className="flex flex-col items-center justify-start text-left text-lg gap-6 bg-slate-50 border-[1.5px] border-black rounded-lg w-full max-w-[450px] py-8 px-6">
-                <p className="text-2xl lg:text-4xl w-full">CREATE A WALLET</p>
-                <p>Similar to the charm of Shiba Inu on Ethereum, $HAMI brings a delightful twist with its adorable hamster-themed allure. Dive into the whimsical universe of $HAMI, where crypto merges with humor, and embark on an exciting journey toward the next big meme coin sensation on SOLANA</p>
+
+            <div className="flex flex-col items-center justify-start text-left text-lg gap-6 bg-white border-[1px] border-gray-200 rounded-lg w-full py-8 px-6">
+                <p className="text-5xl w-full font-extrabold">02</p>
+                <p className="text-2xl lg:text-2xl w-full h-[30px]">Buy SOL and Fund Your Wallet</p>
+                <p>Purchase Solana (SOL) on your favorite crypto exchange (like Binance or Coinbase). Once you have SOL, send it directly to your Phantom wallet.</p>
             </div>
-            <div className="flex flex-col items-center justify-start text-left text-lg gap-6 bg-slate-50 border-[1.5px] border-black rounded-lg w-full max-w-[450px] py-8 px-6">
-                <p className="text-2xl lg:text-4xl w-full">CREATE A WALLET</p>
-                <p>Similar to the charm of Shiba Inu on Ethereum, $HAMI brings a delightful twist with its adorable hamster-themed allure. Dive into the whimsical universe of $HAMI, where crypto merges with humor, and embark on an exciting journey toward the next big meme coin sensation on SOLANA</p>
+
+            <div className="flex flex-col items-center justify-start text-left text-lg gap-6 bg-white border-[1px] border-gray-200 rounded-lg w-full py-8 px-6">
+                <p className="text-5xl w-full font-extrabold">03</p>
+                <p className="text-2xl lg:text-2xl w-full h-[30px]">Connect to Raydium or Jupiter</p>
+                <p>Go to Raydium or Jupiter, trusted Solana-based decentralized exchanges. Connect your Phantom wallet to start trading with ease.</p>
+            </div>
+
+            <div className="flex flex-col items-center justify-start text-left text-lg gap-6 bg-white border-[1px] border-gray-200 rounded-lg w-full py-8 px-6">
+                <p className="text-5xl w-full font-extrabold">04</p>
+                <p className="text-2xl lg:text-2xl w-full h-[30px]">Swap SOLANA for $SPLAT</p>
+                <p>Use your SOL to swap for $SPLAT COIN on Raydium or Jupiter. Confirm the transaction and watch as $SPLAT COIN lands in your wallet! 🚀</p>
             </div>
         </section>
+
+        {/* <div className="flex flex-col items-center gap-12 mt-32 text-slate-50">
+<p className="text-3xl md:text-5xl lg:text-7xl font-bold secondary">HOW TO BUY</p>
+<section className="grid grid-cols-1 md:grid-cols-3 gap-6 px-6 md:w-[80%]">
+    <div className="flex flex-col items-center justify-start text-left text-lg gap-6 bg-[#161B22] border-[1px] border-gray-800 rounded-lg w-full max-w-[450px] py-8 px-6">
+        <p className="text-2xl lg:text-4xl w-full">CREATE A WALLET</p>
+        <p>Similar to the charm of Shiba Inu on Ethereum, $HAMI brings a delightful twist with its adorable hamster-themed allure. Dive into the whimsical universe of $HAMI, where crypto merges with humor, and embark on an exciting journey toward the next big meme coin sensation on SOLANA</p>
+    </div>
+    <div className="flex flex-col items-center justify-start text-left text-lg gap-6 bg-[#161B22] border-[1px] border-gray-800 rounded-lg w-full max-w-[450px] py-8 px-6">
+        <p className="text-2xl lg:text-4xl w-full">CREATE A WALLET</p>
+        <p>Similar to the charm of Shiba Inu on Ethereum, $HAMI brings a delightful twist with its adorable hamster-themed allure. Dive into the whimsical universe of $HAMI, where crypto merges with humor, and embark on an exciting journey toward the next big meme coin sensation on SOLANA</p>
+    </div>
+    <div className="flex flex-col items-center justify-start text-left text-lg gap-6 bg-[#161B22] border-[1px] border-gray-800 rounded-lg w-full max-w-[450px] py-8 px-6">
+        <p className="text-2xl lg:text-4xl w-full">CREATE A WALLET</p>
+        <p>Similar to the charm of Shiba Inu on Ethereum, $HAMI brings a delightful twist with its adorable hamster-themed allure. Dive into the whimsical universe of $HAMI, where crypto merges with humor, and embark on an exciting journey toward the next big meme coin sensation on SOLANA</p>
+    </div>
+</section>
+
+</div> */}
 
     </div>
   )
