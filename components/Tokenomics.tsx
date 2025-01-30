@@ -90,7 +90,7 @@ const Tokenomics = () => {
               </div>
             </div>
 
-            <div className="hidden lg:flex flex-col gap-2 text-lg w-full max-w-[580px]">
+            <div className="flex flex-col gap-2 text-lg w-full max-w-[580px]">
         <p className="text-lg xl:text-xl">TOKEN ADDRESS:</p>
         <div className="flex items-center rounded-lg h-[60px] px-2 border-[1px] bg-transparent border-gray-600 hover:border-slate-300 gap-2">
         <input
