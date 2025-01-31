@@ -15,20 +15,20 @@ const Buy = () => {
 
             <div className="flex flex-col items-center justify-start text-left text-lg gap-6 bg-white border-[1px] border-gray-200 rounded-lg w-full py-8 px-6">
                 <p className="text-5xl w-full font-extrabold">02</p>
-                <p className="text-2xl lg:text-2xl w-full h-[30px]">Buy SOL and Fund Your Wallet</p>
+                <p className="text-2xl lg:text-2xl w-full lg:h-[30px]">Buy SOL and Fund Your Wallet</p>
                 <p>Purchase Solana (SOL) on your favorite crypto exchange (like Binance or Coinbase). Once you have SOL, send it directly to your Phantom wallet.</p>
             </div>
 
             <div className="flex flex-col items-center justify-start text-left text-lg gap-6 bg-white border-[1px] border-gray-200 rounded-lg w-full py-8 px-6">
                 <p className="text-5xl w-full font-extrabold">03</p>
-                <p className="text-2xl lg:text-2xl w-full h-[30px]">Connect to Raydium or Jupiter</p>
+                <p className="text-2xl lg:text-2xl w-full lg:h-[30px]">Connect to Raydium or Jupiter</p>
                 <p>Go to Raydium or Jupiter, trusted Solana-based decentralized exchanges. Connect your Phantom wallet to start trading with ease.</p>
             </div>
 
             <div className="flex flex-col items-center justify-start text-left text-lg gap-6 bg-white border-[1px] border-gray-200 rounded-lg w-full py-8 px-6">
                 <p className="text-5xl w-full font-extrabold">04</p>
-                <p className="text-2xl lg:text-2xl w-full h-[30px]">Swap SOLANA for $SPLAT</p>
-                <p>Use your SOL to swap for $SPLAT COIN on Raydium or Jupiter. Confirm the transaction and watch as $SPLAT COIN lands in your wallet! 🚀</p>
+                <p className="text-2xl lg:text-2xl w-full lg:h-[30px]">Swap SOLANA for $SPLAT</p>
+                <p>Use your SOL to swap for $SPLAT on Raydium or Jupiter. Confirm the transaction and watch as $SPLAT lands in your wallet! 🚀</p>
             </div>
         </section>
 

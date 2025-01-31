@@ -21,7 +21,7 @@ const Navbar = () => {
       <Link href='/' className={cn(
             "relative dark:text-slate-50 items-center flex space-x-1 text-slate-950 w-[150px] text-xl lg:text-3xl font-extrabold"
           )}>
-            <p>$SPLATCOIN</p>
+            <p>$SPLAT</p>
       </Link>
 
       <div className="flex justify-center items-center gap-8">
@@ -41,7 +41,10 @@ const Navbar = () => {
       <div className="opacity-0 lg:opacity-100 relative w-[220px] h-[55px] rounded-lg border-[1px] border-gray-200 overflow-hidden group z-10 ">
                 <div className="absolute top-0 h-full w-full group-hover:ml-52 duration-700 transition-all ease-in-out bg-blue-600 rounded-lg text-slate-50  border-[1px] border-gray-200 z-20 flex justify-center items-center text-lg">Buy On Jupiter <ArrowRight size={20} className="ml-2"/></div>
                 <Link href="/" className="absolute top-0 h-full w-full bg-white border-[1px] border-gray-200 rounded-lg flex justify-start items-center pl-8  text-lg">Buy $SPLAT Today</Link>
-            </div>
+      </div>
+
+
+
 
       {/* <div className="flex justify-center items-center gap-2">
         <div className="w-[42px] h-[42px] bg-slate-50 border-[1px] border-black flex justify-center items-center rounded-full">
@@ -71,7 +74,7 @@ const Navbar = () => {
       <a href="/about">ABOUT</a>
       <a href="/process">HOW TO BUY</a>
       <a href="/#tokenomic">TOKENOMICS</a>
-      <div className="relative w-[220px] h-[58px] rounded-lg border-[1px] border-gray-200 overflow-hidden group z-10 ">
+      <div className="relative w-[220px] h-[58px] rounded-lg border-[1px] border-gray-200 overflow-hidden group z-10 ml-6 ">
                 <div className="absolute top-0 h-full w-full group-hover:ml-52 duration-700 transition-all ease-in-out bg-blue-600 rounded-lg text-slate-50  border-[1px] border-gray-200 z-20 flex justify-center items-center text-lg">Buy On Jupiter <ArrowRight size={20} className="ml-2"/></div>
                 <Link href="/" className="absolute top-0 h-full w-full bg-white border-[1px] border-gray-200 rounded-lg flex justify-start items-center pl-8 text-lg">Buy $SPLAT Today</Link>
             </div>

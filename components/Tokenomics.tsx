@@ -55,36 +55,38 @@ const Tokenomics = () => {
     //     </section>
 
     // </div>
-    <div className="flex flex-col items-center justify-center mt-32 px-6 gap-24">
-         {/* <p className="text-3xl md:text-5xl lg:text-7xl font-bold text-center secondary lg:w-[70%]">$SPLATS TOKENOMICS</p> */}
-        <div className="flex flex-col lg:flex-row justify-center items-start gap-2 lg:gap-32 text-slate-950">
-      <Image
-        width={400}
-        height={400}
-        src='/assets/images/logo7.png' 
-        alt="splat playing with friends"
-        className=" max-w-[280px] lg:max-w-[600px]"
-      />
+    // <div className="flex flex-col items-center justify-center mt-32 px-6  bg-red-900 w-full">
+        //  {/* <p className="text-3xl md:text-5xl lg:text-7xl font-bold text-center secondary lg:w-[70%]">$SPLATS TOKENOMICS</p> */}
+        <div className="flex flex-col lg:flex-row justify-center items-start gap-2 text-slate-950 lg:w-[85%] mt-32">
+          <div className="flex w-1/3 justify-start ">
+            <Image
+              width={500}
+              height={500}
+              src='/assets/images/logo9.png' 
+              alt="splat playing with friends"
+              className=" max-w-[280px] lg:max-w-[500px] flex self-start"
+            />
+          </div>
       
-      <section className="w-full lg:w-[80%] xl:max-w-[1000px] flex flex-col gap-4 py-6 bg-transparent mt-6 px-6">
+      <section className="w-full max-w-[1200px] flex flex-col gap-4 py-6 bg-transparent mt-6 px-6 ">
             <p className="text-3xl md:text-5xl lg:text-7xl font-bold text-left secondary w-full mb-8">$SPLATS TOKENOMICS</p>
-            <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 gap-2">
-              <div className="flex flex-col gap-2 w-full max-w-[300px] py-6 px-4 bg-white border-[1px] border-gray-200 rounded-lg">
+            <div className="flex flex-wrap gap-2">
+              <div className="flex flex-col gap-2 w-full max-w-[220px] py-6 px-4 bg-white border-[1px] border-gray-200 rounded-lg">
                   <p className="text-xl lg:text-xl">LP</p>
                   <p className="text-2xl font-extrabold lg:text-3xl">BURNED</p>
               </div>
 
-              <div className="flex flex-col gap-2 w-full max-w-[300px] py-6 px-4 bg-white border-[1px] border-gray-200 rounded-lg">
+              <div className="flex flex-col gap-2 w-full max-w-[220px] py-6 px-4 bg-white border-[1px] border-gray-200 rounded-lg">
                   <p className="text-xl lg:text-xl">SUPPLY</p>
                   <p className="text-2xl font-extrabold lg:text-3xl">1B</p>
               </div>
 
-              <div className="flex flex-col gap-2 w-full max-w-[300px] py-6 px-4 bg-white border-[1px] border-gray-200 rounded-lg">
+              <div className="flex flex-col gap-2 w-full max-w-[220px] py-6 px-4 bg-white border-[1px] border-gray-200 rounded-lg">
                   <p className="text-xl lg:text-xl">BUY/SELL TAX</p>
                   <p className="text-2xl font-extrabold lg:text-3xl">0%</p>
               </div>
 
-              <div className="flex flex-col gap-2 w-full max-w-[300px] py-6 px-4 bg-white border-[1px]  border-gray-200 rounded-lg">
+              <div className="flex flex-col gap-2 w-full max-w-[220px] py-6 px-4 bg-white border-[1px]  border-gray-200 rounded-lg">
                   <p className="text-xl lg:text-xl">OWNSERSHIP</p>
                   <p className="text-2xl font-extrabold lg:text-3xl">RENOUNCED</p>
               </div>
@@ -114,22 +116,7 @@ const Tokenomics = () => {
         </div>
         {/* <Button className="h-[55px] px-4 text-slate-50 border-gray-600 border-[1px] hover:border-slate-300 max-w-[360px] text-xl">BUY $PLAT</Button> */}
     </div>
-
-            {/* <div className="flex flex-col gap-2">
-              <p className="text-xl">Contract Address</p>
-              <div className="flex flex-col lg:flex-row gap-2">
-                <div className="h-[52px] px-4 bg-white border-[1px]  border-gray-200 hover:border-slate-300 rounded-lg flex items-center text-sm lg:text-base">
-                  <p>4oPhukukiBd58zJk9y6QJkpp7xfYYpk5xHEkZ8eGZXCk</p>
-                </div>
-                <Button className="h-[50px] px-4 bg-slate-950 border-[1px] border-black text-slate-50 text-lg">Copy Address</Button>
-              </div>
-
-            </div>
-         */}
-          </section>
-
-        
-      </div>
+    </section>
     </div>
 
 
