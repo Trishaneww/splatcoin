@@ -17,17 +17,17 @@ import Tokenomics from "@/components/Tokenomics";
 
 const Website = () => {
   return (
-    <div className="flex flex-col scroll-smooth bg-sky-50">
+    <div className="flex flex-col items-center overflow-hidden scroll-smooth bg-pink-100">
       <Navbar />
       <Hero />
       {/* <div id="exchanges">
         <Partnership />
       </div> */}
-      <div id="about">
+      <div id="about" className="w-full flex justify-center">
         <About />
       </div>
       <Story />
-      <div id="tokenomics">
+      <div id="tokenomics" className="w-full flex justify-center">
         <Tokenomics />
       </div>
       <div id="process">

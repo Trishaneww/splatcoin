@@ -19,30 +19,30 @@ const Hero = () => {
       setTimeout(() => setIsCopied(false), 2000); // Reset after 2 seconds
     };
   return (
-    <div className="flex flex-col items-center justify-center mt-6">
+    <div className="flex flex-col items-center justify-center mt-6 w-full">
         <p className="text-lg lg:text-3xl font-extrabold secondary">DECENETRALIZE THE FUTURE</p>
         <p className="text-8xl lg:text-[13rem] font-extrabold secondary">$SPLAT</p>
 
-        <div className="flex justify-center items-center gap-6 px-6 text-slate-950">
-    <div className="hidden lg:flex flex-col text-lg w-1/3 max-w-[550px] gap-2">
-        <p className="text-2xl xl:text-3xl">CRYPTO BERNIE</p>
-        <p className="text-sm xl:text-base">Say hello to Crypto Bernie $SPLAT—the tail-wagging, blockchain-loving Bernese Mountain Dog whos here to fetch your attention!</p>
+        <div className="flex justify-center items-center gap-6 px-6 text-slate-950 w-full">
+    <div className="hidden lg:flex flex-col text-lg w-1/3 max-w-[550px] gap-2 ">
+        {/* <p className="text-2xl xl:text-3xl">CRYPTO BERNIE</p>
+        <p className="text-sm xl:text-base">Say hello to Crypto Bernie $SPLAT—the tail-wagging, blockchain-loving Bernese Mountain Dog whos here to fetch your attention!</p> */}
     </div>
 
-    <div className="w-1/3 flex justify-center">
+    <div className="w-[40%] flex justify-center">
         <Image 
             width={1000}
             height={1000}
             src="/assets/images/logo6.png"
             alt="splat coin logo"
-            className="lg:-mt-28 max-w-[340px] lg:max-w-[600px]"
+            className="lg:-mt-2 max-w-[340px] lg:max-w-[600px]"
         />
     </div>
 
 
-    <div className="hidden lg:flex flex-col gap-2 text-lg w-1/3 max-w-[550px]">
+    <div className="hidden lg:flex flex-col gap-2 text-lg w-1/3 max-w-[550px] mt-32">
         <p className="text-2xl xl:text-3xl">TOKEN ADDRESS:</p>
-        <div className="flex items-center rounded-lg h-[60px] px-2 border-[1px] bg-transparent border-gray-600 hover:border-slate-300 gap-2">
+        <div className="flex items-center rounded-lg h-[60px] px-2 border-[1px] bg-transparent border-gray-600 hover:border-slate-300 gap-2 max-w-[390px]">
         <input
           type="text"
           value="4oPhukukiBd58zJk9y6QJkpp7xfYYpk5xHEkZ8eGZXCk"
@@ -62,6 +62,11 @@ const Hero = () => {
           )}
         </Button>
         </div>
+
+        <div className="opacity-0 lg:opacity-100 relative w-[220px] h-[55px] rounded-lg border-[1px] border-gray-200 overflow-hidden group z-10 ">
+                <div className="absolute top-0 h-full w-full group-hover:ml-52 duration-700 transition-all ease-in-out bg-slate-900 rounded-lg text-slate-50  border-[1px] border-gray-200 z-20 flex justify-center items-center text-lg">Buy On Radium<ArrowRight size={20} className="ml-2"/></div>
+                <Link href="/" className="absolute top-0 h-full w-full bg-white border-[1px] border-gray-200 rounded-lg flex justify-start items-center pl-8  text-lg">Buy $SPLAT Today</Link>
+            </div>
         {/* <Button className="h-[55px] px-4 text-slate-50 border-gray-600 border-[1px] hover:border-slate-300 max-w-[360px] text-xl">BUY $PLAT</Button> */}
     </div>
 
@@ -72,7 +77,7 @@ const Hero = () => {
         <div className="flex justify-center items-center gap-6 px-6">
 
         </div>
-        <div className="flex gap-8 w-full bg-blue-600 h-[110px] overflow-hidden  lg:-mt-32">
+        <div className="flex gap-8 w-full bg-blue-600 h-[110px] overflow-hidden  lg:-mt-2">
             {splatList.map((item, idx) => (
                 <div key={idx} className="flex items-center text-slate-50 text-3xl gap-2">
                     <p>$SPLAT</p>
