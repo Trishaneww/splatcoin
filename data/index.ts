@@ -6,7 +6,7 @@ export const navItems = [
     },
     {
       id:2,
-      name: 'HOW TO BUY',
+      name: 'VISION',
       link: '/#learn'
   },
     {
