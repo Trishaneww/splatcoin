@@ -14,87 +14,33 @@ const Tokenomics = () => {
         setTimeout(() => setIsCopied(false), 2000); // Reset after 2 seconds
       };
   return (
-    // <div className="flex flex-col items-center gap-2 mt-32 px-6">
-    //     <p className="text-3xl md:text-5xl lg:text-7xl font-bold secondary">$SPLAT TOKENOMICS</p>
-    //     <p className="text-base lg:text-xl font-bold text-center">Founders Like You. They Buy They Sale Their $PLAT</p>
-    //     <section className="w-full lg:w-[65%] flex flex-col gap-4 px-4 py-6 border-[1px] border-black bg-slate-50 mt-6">
-    //       <p className="text-xl">Total Supply: 1,000,000,000</p>
-    //       <div className="grid grid-cols-1 lg:grid-cols-4 gap-2">
-    //         <div className="flex flex-col gap-2 w-full py-6 px-4 border-[1px] border-black bg-sky-300 rounded-lg">
-    //             <p className="text-xl lg:text-3xl">Burned</p>
-    //             <p className="text-2xl lg:text-5xl">50%</p>
-    //         </div>
-
-    //         <div className="flex flex-col gap-2 w-full py-6 px-4 border-[1px] border-black bg-sky-300 rounded-lg">
-    //             <p className="text-xl lg:text-3xl">Burned</p>
-    //             <p className="text-2xl lg:text-5xl">50%</p>
-    //         </div>
-
-    //         <div className="flex flex-col gap-2 w-full py-6 px-4 border-[1px] border-black bg-sky-300 rounded-lg">
-    //             <p className="text-xl lg:text-3xl">Burned</p>
-    //             <p className="text-2xl lg:text-5xl">50%</p>
-    //         </div>
-
-    //         <div className="flex flex-col gap-2 w-full py-6 px-4 border-[1px] border-black bg-sky-300 rounded-lg">
-    //             <p className="text-xl lg:text-3xl">Burned</p>
-    //             <p className="text-2xl lg:text-5xl">50%</p>
-    //         </div>
-    //       </div>
-
-    //       <div className="flex flex-col gap-2">
-    //         <p className="text-xl">Contract Address</p>
-    //         <div className="flex flex-col lg:flex-row gap-2">
-    //           <div className="h-[50px] px-4 border-[1px] border-black rounded-lg flex items-center">
-    //             <p>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
-    //           </div>
-    //           <Button className="h-[50px] px-4 bg-sky-300 border-[1px] border-black text-black text-lg">Copy Address</Button>
-    //         </div>
-
-    //       </div>
-      
-    //     </section>
-
-    // </div>
-    // <div className="flex flex-col items-center justify-center mt-32 px-6  bg-red-900 w-full">
-        //  {/* <p className="text-3xl md:text-5xl lg:text-7xl font-bold text-center secondary lg:w-[70%]">$SPLATS TOKENOMICS</p> */}
-        <div className="flex flex-col lg:flex-row justify-center items-start gap-2 text-slate-950 lg:w-[85%] mt-32">
-          <div className="flex w-1/3 justify-start ">
-            <Image
-              width={500}
-              height={500}
-              src='/assets/images/logo9.png' 
-              alt="splat playing with friends"
-              className=" max-w-[280px] lg:max-w-[500px] flex self-start"
-            />
-          </div>
-      
-      <section className="w-full max-w-[1200px] flex flex-col gap-4 py-6 bg-transparent mt-6 px-6 ">
-            <p className="text-3xl md:text-5xl lg:text-7xl font-bold text-left secondary w-full mb-8">$SPLATS TOKENOMICS</p>
-            <div className="flex flex-wrap gap-2">
-              <div className="flex flex-col gap-2 w-full max-w-[220px] py-6 px-4 bg-white border-[1px] border-gray-200 rounded-lg">
+      <div className="w-full flex flex-col  items-center gap-4 py-6 bg-transparent mt-20 lg:mt-6 px-6">
+            <p className="text-3xl md:text-5xl lg:text-7xl font-bold  secondary w-full mb-8 text-left lg:text-center">$SPLATS TOKENOMICS</p>
+            <div className="flex justify-center flex-wrap gap-2 w-full">
+              <div className="flex flex-col gap-2 w-full lg:max-w-[220px] py-6 px-4 bg-white border-[1px] border-gray-200 rounded-lg">
                   <p className="text-xl lg:text-xl">LP</p>
                   <p className="text-2xl font-extrabold lg:text-3xl">BURNED</p>
               </div>
 
-              <div className="flex flex-col gap-2 w-full max-w-[220px] py-6 px-4 bg-white border-[1px] border-gray-200 rounded-lg">
+              <div className="flex flex-col gap-2 w-full lg:max-w-[220px] py-6 px-4 bg-white border-[1px] border-gray-200 rounded-lg">
                   <p className="text-xl lg:text-xl">SUPPLY</p>
                   <p className="text-2xl font-extrabold lg:text-3xl">1B</p>
               </div>
 
-              <div className="flex flex-col gap-2 w-full max-w-[220px] py-6 px-4 bg-white border-[1px] border-gray-200 rounded-lg">
+              <div className="flex flex-col gap-2 w-full lg:max-w-[220px] py-6 px-4 bg-white border-[1px] border-gray-200 rounded-lg">
                   <p className="text-xl lg:text-xl">BUY/SELL TAX</p>
                   <p className="text-2xl font-extrabold lg:text-3xl">0%</p>
               </div>
 
-              <div className="flex flex-col gap-2 w-full max-w-[220px] py-6 px-4 bg-white border-[1px]  border-gray-200 rounded-lg">
+              <div className="flex flex-col gap-2 w-full lg:max-w-[220px] py-6 px-4 bg-white border-[1px]  border-gray-200 rounded-lg">
                   <p className="text-xl lg:text-xl">OWNSERSHIP</p>
                   <p className="text-2xl font-extrabold lg:text-3xl">RENOUNCED</p>
               </div>
             </div>
 
-            <div className="flex flex-col gap-2 text-lg w-full max-w-[580px]">
-        <p className="text-lg xl:text-xl">TOKEN ADDRESS:</p>
-        <div className="flex items-center rounded-lg h-[60px] px-2 border-[1px] bg-transparent border-gray-600 hover:border-slate-300 gap-2">
+            <div className="flex flex-col items-center gap-2 text-lg w-full">
+        <p className="text-lg xl:text-xl w-full lg:text-center mt-4">TOKEN ADDRESS:</p>
+        <div className="flex items-center rounded-lg h-[60px] px-2 border-[1px] bg-transparent border-gray-600 hover:border-slate-950 gap-2 w-full lg:max-w-[560px]">
         <input
           type="text"
           value="4oPhukukiBd58zJk9y6QJkpp7xfYYpk5xHEkZ8eGZXCk"
@@ -116,7 +62,6 @@ const Tokenomics = () => {
         </div>
         {/* <Button className="h-[55px] px-4 text-slate-50 border-gray-600 border-[1px] hover:border-slate-300 max-w-[360px] text-xl">BUY $PLAT</Button> */}
     </div>
-    </section>
     </div>
 
 
