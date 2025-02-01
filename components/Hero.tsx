@@ -63,7 +63,7 @@ const Hero = () => {
         </div>
 
         <div className="opacity-0 lg:opacity-100 relative w-[220px] h-[55px] rounded-lg border-[1px] border-gray-200 overflow-hidden group z-10 ">
-                <div className="absolute top-0 h-full w-full group-hover:ml-52 duration-700 transition-all ease-in-out bg-slate-900 rounded-lg text-slate-50  border-[1px] border-gray-200 z-20 flex justify-center items-center text-lg">Buy On Jupiter<ArrowRight size={20} className="ml-2"/></div>
+                <div className="absolute top-0 h-full w-full group-hover:ml-52 duration-700 transition-all ease-in-out bg-blue-600 rounded-lg text-slate-50  border-[1px] border-gray-200 z-20 flex justify-center items-center text-lg">Buy On Jupiter<ArrowRight size={20} className="ml-2"/></div>
                 <Link href="/" className="absolute top-0 h-full w-full bg-white border-[1px] border-gray-200 rounded-lg flex justify-start items-center pl-8  text-lg">Buy $SPLAT Today</Link>
             </div>
 
@@ -101,7 +101,7 @@ const Hero = () => {
 
         <div className="flex gap-2 items-center mb-12">
           <div className="relative w-[200px] h-[55px] rounded-lg border-[1px] border-gray-200 overflow-hidden group z-10 ">
-                  <div className="absolute top-0 h-full w-full group-hover:ml-52 duration-700 transition-all ease-in-out bg-slate-900 rounded-lg text-slate-50  border-[1px] border-gray-200 z-20 flex justify-center items-center text-base">Buy On Jupiter<ArrowRight size={20} className="ml-2"/></div>
+                  <div className="absolute top-0 h-full w-full group-hover:ml-52 duration-700 transition-all ease-in-out bg-blue-600 rounded-lg text-slate-50  border-[1px] border-gray-200 z-20 flex justify-center items-center text-base">Buy On Jupiter<ArrowRight size={20} className="ml-2"/></div>
                   <Link href="/" className="absolute top-0 h-full w-full bg-white border-[1px] border-gray-200 rounded-lg flex justify-start items-center pl-8  text-lg">Buy $SPLAT</Link>
               </div>
 

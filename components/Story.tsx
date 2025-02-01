@@ -95,16 +95,16 @@ const Story = () => {
 //     </section>
 
 // </div>
-<div className="flex flex-col lg:flex-row-reverse justify-between items-center gap-2 lg:gap-4 mt-20 lg:mt-32 px-6 text-slate-950 lg:w-[80%]">
+<div className="flex flex-col lg:flex-row-reverse justify-between items-center gap-2 lg:gap-4 mt-20 lg:mt-32 px-6 text-slate-950 lg:w-[90%]">
 <Image
-  width={550}
-  height={550}
-  src='/assets/images/logo9.png' 
+  width={600}
+  height={600}
+  src='/assets/images/logo10.png' 
   alt="splat playing with friends"
-  className="max-w-[280px] lg:max-w-[600px]"
+  className="max-w-[350px] lg:max-w-[700px] lg:ml-32"
 />
 
-<section className="flex flex-col gap-8 lg:w-[70%]">
+<section className="flex flex-col gap-8 lg:w-[80%]">
   <p className="text-3xl md:text-5xl lg:text-7xl font-bold secondary">Learn, Trade, and SPLAT Your Way to Crypto Success</p>
   <p className="text-lg">Crypto Bernie isn’t just another dog in the crypto world—he’s your guide, mentor, and all-around blockchain best friend! His mission? To build the strongest, smartest, and most unstoppable crypto community by educating traders—both new and experienced—on everything from blockchain basics to advanced trading strategies.</p>
   <p className="text-lg">With $SPLAT, you'll master the art of trading, learning how to navigate the market without getting rekt, spot scams before they bite, and understand the ins and outs of blockchain and decentralized ecosystems. Crypto can be a wild ride, but when you have the right knowledge, you can trade with confidence, grow your portfolio, and avoid costly mistakes.</p>
