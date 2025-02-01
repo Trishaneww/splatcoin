@@ -26,7 +26,9 @@ const Website = () => {
       <div id="about" className="w-full flex justify-center">
         <About />
       </div>
-      <Story />
+      <div id="learn" className="w-full flex justify-center">
+        <Story />
+      </div>
       <div id="tokenomics" className="w-full flex justify-center">
         <Tokenomics />
       </div>
