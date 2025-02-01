@@ -20,7 +20,7 @@ const Pack = () => {
               <Image
                 width={2000}
                 height={2000}
-                src="/assets/images/logo3.png"
+                src="/assets/images/pack6.png"
                 alt="MGM sports book"
                 className="absolute inset-0  w-[64%] h-[64%] m-auto object-cover"
               />
@@ -42,7 +42,7 @@ const Pack = () => {
                 <Image
                   width={2000}
                   height={2000}
-                  src="/assets/images/logo5.png"
+                  src="/assets/images/logo6.png"
                   alt="MGM sports book"
                 />
               </div>
