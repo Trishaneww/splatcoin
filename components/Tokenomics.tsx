@@ -14,7 +14,7 @@ const Tokenomics = () => {
         setTimeout(() => setIsCopied(false), 2000); // Reset after 2 seconds
       };
   return (
-      <div className="w-full flex flex-col  items-center gap-4 py-6 bg-transparent mt-20 lg:mt-6 px-6">
+      <div className="w-full flex flex-col  items-center gap-4 py-6 bg-transparent mt-20 lg:mt-32 px-6">
             <p className="text-3xl md:text-5xl lg:text-7xl font-bold  secondary w-full mb-8 text-left lg:text-center">$SPLATS TOKENOMICS</p>
             <div className="flex justify-center flex-wrap gap-2 w-full">
               <div className="flex flex-col gap-2 w-full lg:max-w-[220px] py-6 px-4 bg-white border-[1px] border-gray-200 rounded-lg">
