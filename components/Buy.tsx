@@ -8,27 +8,27 @@ const Buy = () => {
     <div className="flex flex-col items-center gap-12 mt-20 lg:mt-32 px-6">
         <p className="text-3xl md:text-5xl lg:text-7xl font-bold secondary w-[78%] text-left lg:text-center">HOW TO BUY $SPLAT</p>
         <section className="grid grid-cols-1 md:grid-cols-2 gap-6 px-6 w-[88%] md:w-[80%] lg:w-[70%]">
-            <div className="flex flex-col items-center justify-start text-left text-lg gap-6 bg-white border-[1px] border-gray-200 rounded-lg w-full py-8 px-6">
-                <p className="text-5xl w-full font-extrabold">01</p>
-                <p className="text-2xl lg:text-2xl w-full h-[30px]">Create a Phantom Wallet</p>
+            <div className="flex flex-col items-center justify-start text-base text-left lg:text-lg gap-6 bg-white border-[1px] border-gray-200 rounded-lg w-full py-8 px-6">
+                <p className="text-4xl lg:text-5xl w-full font-extrabold">01</p>
+                <p className="text-xl lg:text-2xl w-full h-[30px]">Create a Phantom Wallet</p>
                 <p>Set up your Phantom wallet, the ultimate Solana wallet for managing your crypto. It is quick, secure, and easy to use. Head to <Link href="https://phantom.com/" target="_blank" className="text-blue-600">Phantom's website</Link> to get started!</p>
             </div>
 
-            <div className="flex flex-col items-center justify-start text-left text-lg gap-6 bg-white border-[1px] border-gray-200 rounded-lg w-full py-8 px-6">
-                <p className="text-5xl w-full font-extrabold">02</p>
-                <p className="text-2xl lg:text-2xl w-full lg:h-[30px]">Buy SOL and Fund Your Wallet</p>
+            <div className="flex flex-col items-center justify-start text-base text-left lg:text-lg gap-6 bg-white border-[1px] border-gray-200 rounded-lg w-full py-8 px-6">
+                <p className="text-4xl lg:text-5xl w-full font-extrabold">02</p>
+                <p className="text-xl lg:text-2xl w-full lg:h-[30px]">Buy SOL and Fund Your Wallet</p>
                 <p>Purchase Solana (SOL) on your favorite crypto exchange (like Binance or Coinbase). Once you have SOL, send it directly to your Phantom wallet.</p>
             </div>
 
-            <div className="flex flex-col items-center justify-start text-left text-lg gap-6 bg-white border-[1px] border-gray-200 rounded-lg w-full py-8 px-6">
-                <p className="text-5xl w-full font-extrabold">03</p>
-                <p className="text-2xl lg:text-2xl w-full lg:h-[30px]">Connect to Raydium or Jupiter</p>
+            <div className="flex flex-col items-center justify-start text-base text-left lg:text-lg gap-6 bg-white border-[1px] border-gray-200 rounded-lg w-full py-8 px-6">
+                <p className="text-4xl lg:text-5xl w-full font-extrabold">03</p>
+                <p className="text-xl lg:text-2xl w-full lg:h-[30px]">Connect to Raydium or Jupiter</p>
                 <p>Go to Raydium or Jupiter, trusted Solana-based decentralized exchanges. Connect your Phantom wallet to start trading with ease.</p>
             </div>
 
-            <div className="flex flex-col items-center justify-start text-left text-lg gap-6 bg-white border-[1px] border-gray-200 rounded-lg w-full py-8 px-6">
-                <p className="text-5xl w-full font-extrabold">04</p>
-                <p className="text-2xl lg:text-2xl w-full lg:h-[30px]">Swap SOLANA for $SPLAT</p>
+            <div className="flex flex-col items-center justify-start text-base text-left lg:text-lg gap-6 bg-white border-[1px] border-gray-200 rounded-lg w-full py-8 px-6">
+                <p className="text-4xl lg:text-5xl w-full font-extrabold">04</p>
+                <p className="text-xl lg:text-2xl w-full lg:h-[30px]">Swap SOLANA for $SPLAT</p>
                 <p>Use your SOL to swap for $SPLAT on Raydium or Jupiter. Confirm the transaction and watch as $SPLAT lands in your wallet! 🚀</p>
             </div>
         </section>
