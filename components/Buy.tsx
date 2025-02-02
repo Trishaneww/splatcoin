@@ -36,12 +36,12 @@ const Buy = () => {
         <div className="flex gap-2">
         <div className="opacity-0 lg:opacity-100 relative w-[220px] h-[60px] rounded-lg border-[1px] border-gray-200 overflow-hidden group z-10 ">
                 <div className="absolute top-0 h-full w-full group-hover:ml-52 duration-700 transition-all ease-in-out bg-blue-600 rounded-lg text-slate-50  border-[1px] border-gray-200 z-20 flex justify-center items-center text-lg">Buy On Jupiter<ArrowRight size={20} className="ml-2"/></div>
-                <Link href="https://jup.ag/" target="_blank" className="absolute top-0 h-full w-full bg-white border-[1px] border-gray-200 rounded-lg flex justify-start items-center pl-8  text-lg">Buy $SPLAT Today</Link>
+                <Link href="https://jup.ag/swap/SOL-4oPhukukiBd58zJk9y6QJkpp7xfYYpk5xHEkZ8eGZXCk" target="_blank" className="absolute top-0 h-full w-full bg-white border-[1px] border-gray-200 rounded-lg flex justify-start items-center pl-8  text-lg">Buy $SPLAT Today</Link>
             </div>
 
             <div className="opacity-0 lg:opacity-100 relative w-[220px] h-[60px] rounded-lg border-[1px] border-gray-200 overflow-hidden group z-10 ">
                 <div className="absolute top-0 h-full w-full group-hover:ml-52 duration-700 transition-all ease-in-out bg-slate-900 rounded-lg text-slate-50  border-[1px] border-gray-200 z-20 flex justify-center items-center text-lg">Buy On Radium<ArrowRight size={20} className="ml-2"/></div>
-                <Link href="https://raydium.io/swap/" target="_blank" className="absolute top-0 h-full w-full bg-white border-[1px] border-gray-200 rounded-lg flex justify-start items-center pl-8  text-lg">Buy $SPLAT Today</Link>
+                <Link href="https://raydium.io/swap/?inputMint=sol&outputMint=4oPhukukiBd58zJk9y6QJkpp7xfYYpk5xHEkZ8eGZXCk" target="_blank" className="absolute top-0 h-full w-full bg-white border-[1px] border-gray-200 rounded-lg flex justify-start items-center pl-8  text-lg">Buy $SPLAT Today</Link>
             </div>
         </div>
 

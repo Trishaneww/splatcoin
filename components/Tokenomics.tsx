@@ -33,7 +33,7 @@ const Tokenomics = () => {
               </div>
 
               <div className="flex flex-col gap-2 w-full lg:max-w-[220px] py-6 px-4 bg-white border-[1px]  border-gray-200 rounded-lg">
-                  <p className="text-xl lg:text-xl">OWNSERSHIP</p>
+                  <p className="text-xl lg:text-xl">OWNERSHIP</p>
                   <p className="text-2xl font-extrabold lg:text-3xl">RENOUNCED</p>
               </div>
             </div>
