@@ -4,8 +4,16 @@ import React from 'react'
 const Pack = () => {
   return (
     <div className="flex flex-col items-center lg:mt-32">
-         <p className="text-3xl md:text-5xl lg:text-7xl font-bold text-center secondary mb-8 w-[90%] lg:w-[70%]">UNLEASHING POWER TO THE PACK, ONE BLOCK AT A TIME</p>
-        <section className="grid grid-cols-3 lg:grid-cols-4 lg:flex justify-center items-center gap-4 md:gap-6">
+         <p className="text-3xl md:text-5xl lg:text-7xl font-bold text-center secondary mb-8 w-[90%] lg:w-[70%]">$SPLAT - MORE THAN A MEME: EDUCATING & EMPOWERING THE NEXT WAVE OF CRYPTO ENTHUSIASTS!</p>
+
+              <Image
+                width={500}
+                height={500}
+                src="/assets/images/logo11.png"
+                alt="MGM sports book"
+                className="max-w-[280px] lg:max-w-[600px]"
+              />
+        {/* <section className="grid grid-cols-3 lg:grid-cols-4 lg:flex justify-center items-center gap-4 md:gap-6">
           <div className="relative flex flex-col items-center justify-center w-[85px] h-[85px] lg:w-[100px] lg:h-[100px] bg-white border-[1px] border-slate-100 rounded-xl hover:delay-300 hover:bg-slate-100 transition-all duration-200 ease-in-out">
               <Image
                 width={2000}
@@ -78,7 +86,7 @@ const Pack = () => {
                 className="absolute inset-0  w-[64%] h-[64%] m-auto object-cover"
               />
           </div>
-      </section>   
+      </section>    */}
     </div>
   )
 }

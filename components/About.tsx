@@ -63,7 +63,7 @@ const About = () => {
 
 <section className="flex flex-col gap-8 lg:w-[60%]">
   <p className="text-3xl md:text-5xl lg:text-7xl font-bold secondary">ABOUT $SPLAT</p>
-  <p className="text-lg lg:w-full">Say hello to Crypto Bernie $SPLAT—the tail-wagging, blockchain-loving Bernese Mountain Dog who’s here to fetch your attention! $SPLAT isn’t just barking up the blockchain tree; he’s digging up treasures of crypto knowledge for everyone! With loyalty as big as his fluffy paws and style that’s off the leash, Bernie’s mission is simple: make crypto fun, friendly, and for everyone. Whether you’re a seasoned hodler or just sniffing around for your first token, Bernie’s got your back (and maybe a slobbery high-five too)!</p>
+  <p className="text-lg lg:w-full text-justify">Say hello to Crypto Bernie $SPLAT—the tail-wagging, blockchain-loving Bernese Mountain Dog who’s here to fetch your attention! $SPLAT isn’t just barking up the blockchain tree; he’s digging up treasures of crypto knowledge for everyone! With loyalty as big as his fluffy paws and style that’s off the leash, Bernie’s mission is simple: make crypto fun, friendly, and for everyone. Whether you’re a seasoned hodler or just sniffing around for your first token, Bernie’s got your back (and maybe a slobbery high-five too)!</p>
   
             {/* <div className="relative w-[260px] h-[65px] rounded-lg border-[1px] border-gray-200 overflow-hidden group z-10 ">
                 <div className="absolute top-0 h-full w-full group-hover:ml-52 duration-700 transition-all ease-in-out bg-blue-600 rounded-lg text-slate-50  border-[1px] border-gray-200 z-20 flex justify-center items-center text-lg">Buy On Jupiter <ArrowRight size={20} className="ml-2"/></div>

@@ -38,7 +38,7 @@ const Navbar = () => {
       ))}
       </div>
 
-      <Link href="https://t.me/+4ZMCiOdGAD4yNWJh" className="hidden lg:flex"><Button className="h-[50px] w-[210px] bg-blue-600 ml-6 text-lg text-slate-50">Join Telegram <ArrowRight /></Button></Link>
+      <Link href="https://t.me/+WgwtJXoETvNkODI5" target="_blank" className="hidden lg:flex"><Button className="h-[50px] w-[210px] bg-blue-600 ml-6 text-lg text-slate-50">Join Telegram <ArrowRight /></Button></Link>
 
 {/*       
 
@@ -70,7 +70,7 @@ const Navbar = () => {
       <Menu  size={30}/>
     </label>
     <label id="overlay" htmlFor="sidebar-active"></label>
-    <div className="links-container bg-[#00030F] text-slate-50">
+    <div className="links-container font-bold">
       <label htmlFor="sidebar-active" className="close-sidebar-button relative left-56 text-slate-950">
         <X size={30}/>
        
@@ -79,7 +79,7 @@ const Navbar = () => {
       <a href="/#learn">VISION</a>
       <a href="/#process">HOW TO BUY</a>
       <a href="/#tokenomics">TOKENOMICS</a>
-      <Link href="https://t.me/+4ZMCiOdGAD4yNWJh"><Button className="h-[55px] w-[220px] bg-blue-600 text-lg text-slate-50">Join Telegram <ArrowRight /></Button></Link>
+      <Link href="https://t.me/+WgwtJXoETvNkODI5" target="_blank"><Button className="h-[55px] w-[220px] bg-blue-600 text-lg text-slate-50">Join Telegram <ArrowRight /></Button></Link>
       {/* <div className="relative w-[220px] h-[58px] rounded-lg border-[1px] border-gray-200 overflow-hidden group z-10 ml-6 ">
                 <div className="absolute top-0 h-full w-full group-hover:ml-52 duration-700 transition-all ease-in-out bg-blue-600 rounded-lg text-slate-50  border-[1px] border-gray-200 z-20 flex justify-center items-center text-lg">Buy On Jupiter <ArrowRight size={20} className="ml-2"/></div>
                 <Link href="/" className="absolute top-0 h-full w-full bg-white border-[1px] border-gray-200 rounded-lg flex justify-start items-center pl-8 text-lg">Buy $SPLAT Today</Link>

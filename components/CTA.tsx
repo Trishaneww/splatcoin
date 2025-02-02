@@ -5,8 +5,8 @@ import React from 'react'
 
 const CTA = () => {
   return (
-    <div className="flex flex-col lg:flex-row items-center gap-4 mt-32">
-      <Link href="https://www.dextools.io/app/en/pairs" className="bg-white border-[1px] border-gray-200 py-4 px-2 h-[100px] w-[280px] flex items-center justify-center rounded-lg cursor-pointer">
+    <div className="flex flex-col lg:flex-row items-center gap-4 mt-20">
+      <Link href="https://dexscreener.com" target="_blank" className="bg-white border-[1px] border-gray-200 py-4 px-2 h-[100px] w-[280px] flex items-center justify-center rounded-lg cursor-pointer">
         <Image
           width={1000}
           height={1000}
@@ -15,7 +15,7 @@ const CTA = () => {
         />
       </Link>
 
-      <Link href="https://dexscreener.com/" className="bg-white border-[1px] border-gray-200 py-4 px-2 h-[100px] w-[280px] flex items-center justify-center rounded-lg cursor-pointer">
+      <a href="https://www.dextools.io/app/en/token/dextools?t=1738472788912" target="_blank" className="bg-white border-[1px] border-gray-200 py-4 px-2 h-[100px] w-[280px] flex items-center justify-center rounded-lg cursor-pointer">
         <Image
           width={1000}
           height={1000}
@@ -23,7 +23,7 @@ const CTA = () => {
           alt="dextools logo"
           className="max-w-[150px]"
         />
-      </Link>
+      </a>
     </div>
   )
 }
